@@ -6,5 +6,5 @@ Websites built with Bootstrap CSS framework
 
 | Projects                                    | Links                                                                                                                         |
 | -----------------------------------         | ----------------------------------------------------------------------------------------------------------------              |
-| Pure Bootstrap Website                      | [Demo](/pour-bootstrap-website/index.html)                                                                                    |
+| Pure Bootstrap Website                      | [Demo](/pure-bootstrap-website/index.html)                                                                                    |
 | Admin Dashboard                             | [Demo](/admin-dashboard/index.html)                                                                                           |
