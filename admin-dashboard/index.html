@@ -15,7 +15,88 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-md navbar-light">
+        <button class="navbar-toggler ml-auto mb-2 bg-light" type="button" data-toggle="collapse" data-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3 side-navbar fixed-top">
+                        <a href="#" class="navbar-brand text-white d-block mx-auto text-center pt-3 pb-4 mb-4 bottom-border">CodeAndCreate</a>
+                        <div class="bottom-border pb-3 text-center">
+                            <img src="./images/admin.jpeg" class="rounded-circle mr-3 admin-image">
+                            <a href="#" class="text-white">Helen Smith</a>
+                        </div>
+                        <ul class="navbar-nav flex-column mt-4">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 current pl-3 pl-md-2"><i class="fas fa-home text-light fa-lg mr-3"></i>Dashboard</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-user text-light fa-lg mr-3"></i>Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-envelope text-light fa-lg mr-3"></i>Inbox</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-shopping-cart text-light fa-lg mr-3"></i>Sales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-chart-line text-light fa-lg mr-3"></i>Analytics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-chart-bar text-light fa-lg mr-3"></i>Charts</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-table text-light fa-lg mr-3"></i>Tables</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-wrench text-light fa-lg mr-3"></i>Settings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-light mb-2 sidebar-link pl-3 pl-md-2"><i class="fas fa-file-alt text-light fa-lg mr-3"></i>Documentation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-8 col-lg-9 ml-auto bg-dark fixed-top py-3 top-navbar">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 column-1">
+                                <h4 class="text-light text-uppercase mb-0 navbar-heading">Dashboard</h4>
+                            </div>
+                            <div class="col-md-5 column-2">
+                                <form>
+                                    <div class="input-group search-group">
+                                        <input type="text" class="form-control search-input text-light" placeholder="Search...">
+                                        <button type="button" class="btn btn-light search-btn"><i class="fas fa-search text-danger"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-3">
+                                <ul class="navbar-nav icon-list">
+                                    <li class="nav-item icon-parent">
+                                        <a href="#" class="nav-link icon-bullet">
+                                            <i class="fas fa-comments text-muted fa-lg"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item icon-parent">
+                                        <a href="#" class="nav-link icon-bullet">
+                                            <i class="fas fa-bell text-muted fa-lg"></i>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-auto">
+                                        <a href="#" class="nav-link">
+                                            <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/popper.js/dist/popper.min.js"></script>
