@@ -85,7 +85,7 @@
                                         </a>
                                     </li>
                                     <li class="nav-item ml-auto">
-                                        <a href="#" class="nav-link">
+                                        <a href="#" class="nav-link" data-toggle="modal" data-target="#sign-out">
                                             <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
                                         </a>
                                     </li>
@@ -97,6 +97,281 @@
             </div>
         </div>
     </nav>
+
+    <div class="modal fade" id="sign-out">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Want to leave?</h4>
+                    <button class="close btn-close" data-dismiss="modal" type="button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Press Logout to leave
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Stay Here</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 col-lg-9 ml-auto">
+                    <div class="row pt-md-5 mt-md-3 mb-5 justify-content-center">
+                        <div class="col-11 col-sm-6 col-lg-5 col-xl-3 p-2">
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <i class="fas fa-shopping-cart fa-3x text-warning"></i>
+                                        <div class="text-right text-secondary">
+                                            <h5>Sales</h5>
+                                            <h3>$135000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary">
+                                    <i class="fas fa-sync mr-3"></i>
+                                    <span>Updated Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 col-sm-6 col-lg-5 col-xl-3 p-2">
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+                                        <div class="text-right text-secondary">
+                                            <h5>Expenses</h5>
+                                            <h3>$39000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary">
+                                    <i class="fas fa-sync mr-3"></i>
+                                    <span>Updated Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 col-sm-6 col-lg-5 col-xl-3 p-2">
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <i class="fas fa-users fa-3x text-info"></i>
+                                        <div class="text-right text-secondary">
+                                            <h5>Users</h5>
+                                            <h3>15000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary">
+                                    <i class="fas fa-sync mr-3"></i>
+                                    <span>Updated Now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-11 col-sm-6 col-lg-5 col-xl-3 p-2">
+                            <div class="card card-common">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between">
+                                        <i class="fas fa-chart-line fa-3x text-danger"></i>
+                                        <div class="text-right text-secondary">
+                                            <h5>Visitors</h5>
+                                            <h3>45000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary">
+                                    <i class="fas fa-sync mr-3"></i>
+                                    <span>Updated Now</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-md-8 col-lg-9 ml-auto">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-xl-10 mb-4">
+                            <h3 class="text-muted text-center mb-3">Staff Salary</h3>
+                            <table class="table bg-light text-center table-striped">
+                                <thead>
+                                    <tr class="text-muted">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Salary</th>
+                                        <th>Date</th>
+                                        <th>Contact</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Anna</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><button type="submit" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Mark</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><button type="submit" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>John</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><button type="submit" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>Ash</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><button type="submit" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>Bree</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><button type="submit" class="btn btn-info btn-sm">Message</button></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>&laquo;</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            3
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>&raquo;</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-12 col-xl-10">
+                            <h3 class="text-muted text-center mb-3">Recent Payments</h3>
+                            <table class="table text-center table-dark table-hover">
+                                <thead>
+                                    <tr class="text-muted">
+                                        <th>#</th>
+                                        <th>Name</th>
+                                        <th>Price</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>1</th>
+                                        <td>Mary</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-success py-2 px-3">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>2</th>
+                                        <td>Nick</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-success py-2 px-3">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>3</th>
+                                        <td>Alex</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-danger py-2 px-3">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>4</th>
+                                        <td>Jane</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-danger py-2 px-3">Pending</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>5</th>
+                                        <td>Michael</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-success py-2 px-3">Approved</span></td>
+                                    </tr>
+                                    <tr>
+                                        <th>6</th>
+                                        <td>Kent</td>
+                                        <td>$2000</td>
+                                        <td>25/05/2020</td>
+                                        <td><span class="badge badge-danger py-2 px-3">Pending</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            3
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a href="#" class="page-link py-2 px-3">
+                                            <span>Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/popper.js/dist/popper.min.js"></script>

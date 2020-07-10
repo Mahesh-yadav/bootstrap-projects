@@ -114,6 +114,20 @@ body{
     border-radius: 50%;
 }
 
+.modal .btn-close{
+    font-size: 2rem;
+}
+
+.card-common{
+    box-shadow: 1px 2px 5px #999;
+    transition: all .4s;
+}
+
+.card-common:hover{
+    box-shadow: 2px 3px 15px #999;
+    transform: translateY(3px);
+}
+
 @media (min-width: 576px){
     .top-navbar{
         height: 100vh;
