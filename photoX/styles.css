@@ -1,5 +1,135 @@
 body{
     font-family: "Montserrat", sans-serif;
-    background-color: #eee;
-    margin: 0;
+}
+
+.header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(./images/header-img.jpeg) no-repeat center center / cover;
+    position: relative;
+}
+
+.nav-menu .line-1,
+.nav-menu .line-2,
+.nav-menu .line-3{
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    transition: all .4s;
+    transform-origin: right;
+}
+
+.show-nav .line-1{
+    transform: rotate(-40deg);
+}
+
+.show-nav .line-2{
+    opacity: 0;
+}
+
+.show-nav .line-3{
+    transform: rotate(40deg);
+}
+
+.nav-menu{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .5));
+    padding: 30px;
+    transition: all .7s;
+}
+
+.nav-scroll{
+    padding: 5px 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, .9));
+}
+
+.menu-link{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #eee;
+    transition: color .5s;
+}
+
+.menu-link:hover{
+    color: #246a92;
+}
+
+.menu-link-active{
+    color: #246a92;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+}
+
+.banner-heading{
+    animation: banner 2s;
+}
+
+.banner-para{
+    animation-name: banner;
+    animation-duration: 2s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes banner{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.mission{
+    background: #151f20;
+}
+
+.underline-top{
+    width: 150px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.underline-bottom{
+    width: 250px;
+    border: 2px solid white;
+    margin: auto;
+}
+
+.from-left{
+    animation-name: fromLeft;
+    animation-duration: 3s;
+}
+
+.from-right{
+    animation-name: fromRight;
+    animation-duration: 3s;
+}
+
+@keyframes fromLeft{
+    0%{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fromRight{
+    0%{
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
