@@ -6,6 +6,8 @@ const navBar = document.querySelector('.nav-menu');
 const missionImage = document.querySelector('.camera-img');
 const missionText = document.querySelector('.mission-text');
 
+let currentFilter = 'all';
+
 window.addEventListener('scroll', () => {
     let height = window.pageYOffset;
     
@@ -22,9 +24,29 @@ window.addEventListener('scroll', () => {
         missionImage.classList.remove('from-left');
         missionText.classList.remove('from-right');
     }
+    
+    if(currentFilter === 'all'){
+        applyPricingCardAnimations(height, 4600);
+    }
+    else if(currentFilter === 'new' || currentFilter === 'pro'){
+        applyPricingCardAnimations(height, 4000);
+    }
+    else if(currentFilter === 'free'){
+        applyPricingCardAnimations(height, 4200);
+    }
 });
 
-let currentFilter = 'all';
+function applyPricingCardAnimations(height, offset){
+    if(height >= offset){
+        document.querySelector('.card-1').classList.add('move-from-left');
+        document.querySelector('.card-2').classList.add('move-from-bottom');
+        document.querySelector('.card-3').classList.add('move-from-right');
+    }else{
+        document.querySelector('.card-1').classList.remove('move-from-left');
+        document.querySelector('.card-2').classList.remove('move-from-bottom');
+        document.querySelector('.card-3').classList.remove('move-from-right');
+    }
+}
 
 const galleryTabs = document.querySelectorAll('.gallery-item');
 
